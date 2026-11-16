@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "id": "mizupals",
+      "title": "Mizu Buddies (Mizupals)",
+      "category": "Hardware & IoT",
+      "featured": true,
+      "date": "2026",
+      "summary": "IoT freshwater aquarium monitoring system measuring pH, TDS, and temperature with a Raspberry Pi 4 backend and an ESP32-S3 Tamagotchi-style handheld display.",
+      "tags": ["ESP32-S3", "Raspberry Pi", "Python", "Firebase", "C++"],
+      "repoUrl": "https://github.com/yourusername/mizupals",
+      "demoUrl": ""
+    },
+    {
+      "id": "pentapod-robot",
+      "title": "5-Legged Inverse Kinematics Spider Bot",
+      "category": "Robotics & CAD",
+      "featured": true,
+      "date": "2026",
+      "summary": "Custom-designed pentapod walking robot powered by an ESP32, PCA9685 servo driver, 15 MG90S servos, and a custom phone web controller.",
+      "tags": ["Inverse Kinematics", "ESP32", "3D Printing", "WebSockets"],
+      "repoUrl": "https://github.com/yourusername/pentapod-bot",
+      "demoUrl": ""
+    },
+    {
+      "id": "parametric-tile",
+      "title": "Parametric Ammonite Floral Tile",
+      "category": "Robotics & CAD",
+      "featured": false,
+      "date": "2026",
+      "summary": "Algorithmic 3D relief tile inspired by cephalopod shell geometry, generated using Rhino 7, Grasshopper, and GhPython scripts.",
+      "tags": ["Rhino 7", "Grasshopper", "GhPython", "Digital Fabrication"],
+      "repoUrl": "https://github.com/yourusername/parametric-tiles",
+      "demoUrl": ""
+    },
+    {
+      "id": "variable-capacitor",
+      "title": "2pF–40pF Variable Capacitor",
+      "category": "Hardware & IoT",
+      "featured": false,
+      "date": "2026",
+      "summary": "Precision-fabricated mechanical variable capacitor built and characterized for physics instrumentation coursework.",
+      "tags": ["Electronics", "CAD", "Physics", "Prototyping"],
+      "repoUrl": "",
+      "demoUrl": ""
+    },
+    {
+      "id": "ballistics-sim",
+      "title": "Quadratic Air Drag Trajectory Simulator",
+      "category": "Software",
+      "featured": true,
+      "date": "2025",
+      "summary": "Numerical physics simulation in Python comparing ideal parabolic trajectories against quadratic air resistance models.",
+      "tags": ["Python", "NumPy", "Matplotlib", "Numerical Methods"],
+      "repoUrl": "https://github.com/yourusername/drag-simulator",
+      "demoUrl": ""
+    },
+    {
+      "id": "meal-poll-bot",
+      "title": "Group Dining Consensus Telegram Bot",
+      "category": "Software",
+      "featured": false,
+      "date": "2026",
+      "summary": "Automated Telegram bot that polls group members on cuisine preferences and budget limits to resolve group meal decisions.",
+      "tags": ["Python", "Telegram API", "Automation"],
+      "repoUrl": "https://github.com/yourusername/dining-bot",
+      "demoUrl": ""
+    }
+  ]
+}
