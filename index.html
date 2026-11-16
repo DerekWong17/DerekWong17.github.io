@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deployment Test | My Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+        .card {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 480px;
+            width: 100%;
+            text-align: center;
+        }
+        .status-badge {
+            display: inline-block;
+            background-color: #dcfce7;
+            color: #166534;
+            font-weight: 600;
+            font-size: 0.85rem;
+            padding: 6px 12px;
+            border-radius: 999px;
+            margin-bottom: 16px;
+        }
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 12px;
+            color: #111;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+        button {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1rem;
+            font-weight: 500;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+        button:hover {
+            background-color: #1d4ed8;
+        }
+        #js-output {
+            margin-top: 16px;
+            font-size: 0.9rem;
+            color: #2563eb;
+            font-weight: 500;
+            min-height: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="status-badge">● Deployment Successful</div>
+        <h1>Hello, World!</h1>
+        <p>Your <strong>index.html</strong> file is live and serving properly. Once you confirm this works, you can replace this code with your actual portfolio.</p>
+        
+        <button onclick="testScript()">Test JavaScript</button>
+        <div id="js-output"></div>
+    </div>
+
+    <script>
+        function testScript() {
+            const now = new Date().toLocaleTimeString();
+            document.getElementById('js-output').textContent = `JavaScript is working! (Clicked at ${now})`;
+        }
+    </script>
+
+</body>
+</html>
